@@ -1,0 +1,61 @@
+.tab {
+  display: flex;
+
+  &__controls {
+    margin-left: 70px;
+  }
+}
+
+.tab-content {
+  width: 500px;
+  max-width: 100%;
+  min-height: 470px;
+
+  &__item {
+    animation: fadeEffect .8s;
+  }
+}
+
+.tab-controls {
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__item {
+    flex-grow: 1;
+    width: 100%;
+  }
+}
+
+.tab-info {
+  &__subtitle {
+    margin-top: 12px;
+  }
+
+  &__description {
+    margin-top: 15px;
+  }
+
+  &__list {
+    margin-top: 40px;
+  }
+}
+
+.tab-info-list {
+  .list-item-pointer {
+    display: inline-flex;
+    margin-right: 10px;
+  }
+
+  &__item {
+    display: inline-flex;
+    align-items: center;
+    font-style: italic;
+  }
+
+  &__item:not(:first-child) {
+    margin-top: 8px;
+  }
+}

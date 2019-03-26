@@ -1,0 +1,33 @@
+.connections-map {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: relative;
+  height: 450px;
+
+  &__info {
+    width: 340px;
+    max-width: 100%;
+  }
+
+  &__description {
+    margin-top: 20px;
+
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  &__image {
+    position: absolute;
+    left: 200px;
+
+    width: 916px;
+    height: auto;
+  }
+
+  &__image .svg {
+    width: 100%;
+    height: auto;
+  }
+}

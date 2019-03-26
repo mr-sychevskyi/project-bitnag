@@ -1,0 +1,1 @@
+# Demo: [GitLab Pages](https://mr-sychevskyi.gitlab.io/project-landing/src/index.html)

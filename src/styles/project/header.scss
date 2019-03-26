@@ -1,0 +1,16 @@
+.header {
+  padding: 25px 0;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__brand {
+    .svg {
+      width: 140px;
+      height: auto;
+    }
+  }
+}

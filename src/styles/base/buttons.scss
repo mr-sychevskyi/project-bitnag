@@ -1,0 +1,95 @@
+// BUTTONS__TYPES
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: all .4s ease-in-out;
+
+  &__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: all .4s ease-in-out;
+  }
+
+  &__icon + &__text {
+    margin-left: 30px;
+  }
+
+  &__text {
+    color: #fff;
+  }
+}
+
+.btn-primary {
+  color: #FFF;
+  font-size: 1.375rem;
+  letter-spacing: .5px;
+  border-radius: 4px;
+  background-color: #48C099;
+}
+
+.btn-brand {
+  .svg {
+    fill:#FFFFFF;
+  }
+}
+
+.btn-start {
+  padding: 11px 24px;
+  animation: pulse 2s ease-out infinite;
+}
+
+.btn-tab {
+  justify-content: flex-start;
+  padding: 0 35px;
+  font-size: 1.75rem;
+  line-height: 33px;
+
+  border: 1px solid transparent;
+  border-radius: 4px;
+
+  .svg {
+    stroke: #9C9C9C
+  }
+}
+
+.btn-social {
+  padding: 8px;
+
+  .svg {
+    fill: #fff;
+    width: 16px;
+    height: 16px;
+  }
+}
+// END --> BUTTONS__TYPES
+
+
+// BUTTONS__HOVER
+.btn-brand:hover {
+  .svg {
+    fill: #48C099;
+  }
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: darken(#48C099, 20%);
+}
+
+.btn-tab.active {
+  border-color: #4F4F4F;
+
+  .btn__text {
+    color: #48C099;
+  }
+
+  .svg {
+    stroke: #FFF;
+  }
+}
+// END --> BUTTONS__HOVER

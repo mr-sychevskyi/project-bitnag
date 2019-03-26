@@ -1,0 +1,33 @@
+.countdown-timer {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+
+    min-width: 120px;
+    max-width: 100%;
+    padding: 0 25px;
+    text-align: center;
+  }
+
+  &__item:not(:last-of-type) {
+    border-right: 1px solid #4F4F4F;
+  }
+
+  &__value {
+    font-size: 4.25rem;
+  }
+
+  &__property {
+    font-size: 1.125rem;
+  }
+}
+
+.timer-notification {
+  line-height: 30px;
+  font-size: 4.25rem;
+  text-transform: uppercase;
+}

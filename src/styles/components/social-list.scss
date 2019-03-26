@@ -1,0 +1,28 @@
+.social-list {
+  display: flex;
+  align-items: center;
+
+  &__title {
+    font-size: .875rem;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, .5);
+  }
+}
+
+.social-list_color_fill {
+  .btn-social_tw .svg {
+    fill: #2AA3EF;
+  }
+
+  .btn-social_in .svg {
+    fill: #1178B3
+  }
+
+  .btn-social_fb .svg {
+    fill: #6388CF
+  }
+
+  .btn-social_tg .svg {
+    fill: #0088CC;
+  }
+}

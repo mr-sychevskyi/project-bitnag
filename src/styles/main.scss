@@ -1,0 +1,33 @@
+/* --------------------------------------------------------
+   STYLES
+   -------------------------------------------------------- */
+
+// Foundation
+@import
+  'foundation/normalize',
+  'foundation/typography',
+  'foundation/common';
+
+// Base
+@import
+  'base/animations',
+  'base/buttons';
+
+// Components
+@import
+  'components/language-dropdown',
+  'components/contact-section',
+  'components/email-form',
+  'components/connections-map',
+  'components/product-countdown',
+  'components/countdown-timer',
+  'components/tabs-section',
+  'components/comment-section',
+  'components/social-list';
+
+// Project
+@import
+  'project/header',
+  'project/main',
+  'project/footer',
+  'base/media';

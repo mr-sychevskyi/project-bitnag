@@ -1,0 +1,16 @@
+.product-countdown {
+  margin-top: 75px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__info {
+    width: 500px;
+    max-width: 100%;
+  }
+
+  &__description {
+    margin-top: 10px;
+  }
+}

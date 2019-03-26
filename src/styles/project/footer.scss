@@ -1,0 +1,34 @@
+.footer {
+  position: relative;
+  padding: 44px 0;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__column {
+    display: flex;
+    align-items: center;
+  }
+
+  &__brand {
+    .svg {
+      width: 100px;
+      height: auto;
+    }
+  }
+
+  &__copyright {
+    margin-left: 15px;
+  }
+}
+
+.copyright {
+  color: rgba(255, 255, 255, .5);
+}
+
+.contacts__item:not(:first-of-type) {
+  margin-left: 25px;
+}

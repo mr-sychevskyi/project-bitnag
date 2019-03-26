@@ -1,0 +1,22 @@
+.contact-section {
+  text-align: center;
+
+  &__subtitle {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 12px;
+
+    &_width_l {
+      width: 760px;
+    }
+
+    &_width_m {
+      width: 540px;
+    }
+  }
+
+  &__form {
+    height: 50px;
+    margin-top: 40px;
+  }
+}
